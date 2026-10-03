@@ -60,6 +60,7 @@ section[id]{scroll-margin-top:90px}.single-nav button{border:0;font:inherit;colo
 @media(max-width:600px){.moving-gallery{padding-bottom:48px}.moving-gallery header{margin-bottom:35px}.moving-gallery header>div:last-child{font-size:14px}.strip-photo-1{width:74vw;height:88vw}.strip-photo-2{width:62vw;height:112vw}.strip-photo-3{width:82vw;height:66vw}.strip-photo-4{width:66vw;height:98vw}.strip-badge{width:74px;height:74px;right:12px;top:12px;font-size:11px}.enquiry-panel{min-height:470px}.enquiry-panel h2{font-size:40px}.enquiry-panel>div{flex-direction:column}.enquiry-panel button{width:100%}}
 @media(prefers-reduced-motion:reduce){.photo-track{animation:none!important;transform:none!important}.photo-strip{overflow-x:auto}.photo-sequence[aria-hidden=true]{display:none}}
 .strip-photo{border:4px solid #fff;box-sizing:border-box}
+.benefit-link{display:inline-flex;align-items:center;gap:10px;width:max-content;padding:0;border:0;background:transparent;color:inherit;font-size:13px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}.benefit-link svg{width:16px}
 
 /* Verified Justdial review slider */
 .review-community{padding-bottom:clamp(68px,7vw,96px)}.review-stage{width:min(760px,92vw);margin:0 auto}.review-viewport{overflow:hidden;padding:20px 10px}.review-track{display:flex;transition:transform .7s cubic-bezier(.22,.75,.2,1);will-change:transform}.review-card{flex:0 0 100%;min-height:390px;padding:clamp(34px,5vw,64px);border:1px solid var(--ink);display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 10px 0 rgba(38,24,15,.1)}.review-card-1{background:var(--yellow);transform:rotate(-1deg)}.review-card-2{background:var(--mint);transform:rotate(1deg)}.review-card-3{background:var(--pink);transform:rotate(-.7deg)}.review-card>span{font-size:10px;letter-spacing:.14em}.review-card strong{font:clamp(62px,8vw,112px)/.85 var(--serif);letter-spacing:-.05em}.review-card>p{max-width:520px;font-size:17px}.review-card>a{display:inline-flex;align-items:center;gap:10px;font-size:13px;text-decoration:underline;text-underline-offset:4px}.review-card>a svg{width:16px}.review-controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:22px}.review-controls button{width:48px;height:48px;border:1px solid var(--ink);border-radius:50%;background:var(--cream);font-size:20px}.review-controls button:hover{background:var(--yellow)}.review-controls span{font-size:11px;letter-spacing:.12em;min-width:58px;text-align:center}
@@ -127,7 +128,7 @@ section[id]{scroll-margin-top:90px}.single-nav button{border:0;font:inherit;colo
 
 /* Final mobile precision pass */
 .moving-gallery header>div:last-child>p{font-size:0}
-.moving-gallery header>div:last-child>p::after{content:"Explore the spaces, details and atmosphere that make a productive workday feel effortless.";font-size:16px;line-height:1.55}
+.moving-gallery header>div:last-child>p::after{content:"A professional address, supporting documentation and courier handling from the SpaceStation team.";font-size:16px;line-height:1.55}
 .faq-side article button[aria-expanded=true] svg path:last-child{display:none}
 
 @media(max-width:600px){
@@ -236,16 +237,16 @@ section[id]{scroll-margin-top:90px}.single-nav button{border:0;font:inherit;colo
 
 /* Mobile collage correction: reserve separate space for every layer. */
 @media(max-width:600px){
-  .photo-collage{height:clamp(540px,150vw,640px);isolation:isolate}
-  .photo-collage .pc-one{z-index:1;left:0;top:0;width:86%;height:50%;transform:rotate(-2deg)}
-  .photo-collage .pc-two{z-index:1;right:0;bottom:0;width:55%;height:40%;transform:rotate(3deg)}
-  .photo-collage .sticker{z-index:3;top:43%;right:1%;width:88px;height:88px;font-size:12px;transform:rotate(7deg)}
-  .photo-collage .script-note{z-index:2;left:0;right:auto;top:61%;width:42%;margin:0;padding-right:8px;color:var(--orange);font-size:clamp(25px,7.8vw,33px);line-height:.92;text-align:left;transform:rotate(-3deg);overflow-wrap:normal}
+  .photo-collage{height:clamp(500px,136vw,580px);isolation:isolate}
+  .photo-collage .pc-one{z-index:1;left:0;top:0;width:86%;height:47%;transform:rotate(-2deg)}
+  .photo-collage .pc-two{z-index:1;right:0;bottom:0;width:58%;height:37%;transform:rotate(3deg)}
+  .photo-collage .sticker{z-index:3;top:49%;left:2%;right:auto;width:88px;height:88px;font-size:12px;transform:rotate(7deg)}
+  .photo-collage .script-note{z-index:2;left:calc(2% + 105px);right:2%;top:50%;width:auto;margin:0;padding:0;color:var(--orange);font-size:clamp(25px,7.8vw,33px);line-height:.92;text-align:left;transform:rotate(-3deg);overflow-wrap:normal}
 }
 @media(max-width:340px){
-  .photo-collage{height:520px}
+  .photo-collage{height:480px}
   .photo-collage .sticker{width:78px;height:78px;font-size:11px}
-  .photo-collage .script-note{font-size:24px;width:43%}
+  .photo-collage .script-note{left:calc(2% + 92px);right:1%;font-size:23px}
 }
 
 /* Mobile information strip: four items in a balanced 2 × 2 grid. */
@@ -292,4 +293,65 @@ section[id]{scroll-margin-top:90px}.single-nav button{border:0;font:inherit;colo
   .workspaces-dark .wp-actions{flex-direction:column;gap:8px}
   .workspaces-dark .wp-actions button{width:100%;min-height:50px;padding:13px 16px}
   .workspaces-dark .workspace-panel figure{order:1;min-height:0;height:clamp(230px,72vw,310px)}
+}
+
+/* Mobile containment: every section owns its width and never expands the page. */
+html,body,#root{width:100%;max-width:100%;overflow-x:clip}
+main,main>*,section,header,footer{min-width:0;max-width:100%}
+
+@media(max-width:600px){
+  .single-nav{top:max(16px,env(safe-area-inset-top));left:auto;right:18px;width:auto;height:auto;max-width:none;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;backdrop-filter:none;transform:none}
+  .single-nav>.nav-logo{display:none}
+  .single-nav .menu-pill{position:relative;display:flex;flex:0 0 auto;min-width:78px;min-height:43px;max-width:none;padding:9px 19px 10px;justify-content:center;background:var(--yellow);color:var(--ink);border:1px solid rgba(38,24,15,.42);border-radius:999px;box-shadow:0 5px 0 rgba(38,24,15,.34),0 10px 18px rgba(38,24,15,.16);font-family:var(--serif);font-size:17px;font-weight:600;line-height:1;overflow:hidden}
+  .single-nav .menu-pill::before{content:none}
+  .single-nav .menu-pill svg{display:none}
+
+  .landing-copy{box-sizing:border-box;max-width:calc(100% - 32px)}
+  .landing-copy h1{max-width:100%;font-size:clamp(38px,11.5vw,50px);overflow-wrap:normal}
+  .landing-copy h2{width:100%;max-width:330px}
+
+  .landing-intro,.workspaces-dark,.moving-gallery,.review-community,.visit,.contact-section,.landing-footer{width:100%;max-width:100%;overflow-x:clip}
+  .intro-copy,.intro-side,.section-kicker,.workspace-panel,.wp-copy,.onboarding,.community-heading,.review-stage,.faq-side,.form-side,.footer-wordmark{min-width:0;max-width:100%}
+  .photo-collage{max-width:100%;overflow:hidden}
+  .info-strip{width:100%;max-width:100%;overflow:hidden}
+  .moving-gallery header{width:100%;max-width:100%}
+  .photo-strip,.review-viewport{width:100%;max-width:100%;overflow:hidden}
+  .review-card{max-width:100%}
+  .visit-frame{width:100%;max-width:100%;overflow:hidden}
+  .visit-panel{max-width:calc(100% - 20px)}
+  .contact-section>*{min-width:0;max-width:100%}
+  .contact-facts a,.landing-footer a,.landing-footer p{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+  .landing-footer{grid-template-columns:minmax(0,1fr)}
+}
+
+/* Unified motion system: quick feedback, soft settling and compositor-only movement. */
+:root{--ease-out:cubic-bezier(.22,1,.36,1);--ease-smooth:cubic-bezier(.4,0,.2,1);--motion-fast:180ms;--motion-ui:320ms;--motion-panel:620ms}
+button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.hero-media,.hero-media video,.landing-copy,.menu-panel,.photo-track,.review-track{backface-visibility:hidden;transform-style:preserve-3d}
+.hero-media video{transform:translateZ(0);will-change:transform}
+.menu-panel{transform:translate3d(0,-105%,0);transition:transform var(--motion-panel) var(--ease-out);will-change:transform}
+.menu-panel.open{transform:translate3d(0,0,0)}
+.review-track{transition:transform .58s var(--ease-out)}
+.photo-track{transform:translate3d(0,0,0)}
+.round-button,.wp-actions button,.send-button,.strip-toggle,.review-controls button,.benefit-link,.contact-pill,.menu-pill,.single-nav nav button{transition:transform var(--motion-fast) var(--ease-out),background-color var(--motion-ui) var(--ease-smooth),color var(--motion-ui) var(--ease-smooth),border-color var(--motion-ui) var(--ease-smooth),box-shadow var(--motion-ui) var(--ease-smooth)}
+.photo-collage figure img,.workspace-panel figure img,.visit-frame>img,.strip-photo img{transition:transform .8s var(--ease-out)}
+
+@media(hover:hover) and (pointer:fine){
+  .round-button:hover,.wp-actions button:hover,.send-button:hover,.strip-toggle:hover,.review-controls button:hover,.benefit-link:hover,.contact-pill:hover,.menu-pill:hover{transform:translate3d(0,-2px,0)}
+  .photo-collage figure:hover img,.workspace-panel figure:hover img,.visit-frame:hover>img{transform:scale(1.025)}
+}
+
+@media(pointer:coarse){
+  .round-button:active,.wp-actions button:active,.send-button:active,.strip-toggle:active,.review-controls button:active,.benefit-link:active,.contact-pill:active,.menu-pill:active{transform:scale(.97)}
+  .menu-panel{transition-duration:.5s}
+  .review-track{transition-duration:.48s}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .hero-media video,.menu-panel,.photo-track,.review-track{will-change:auto}
+  .round-button,.wp-actions button,.send-button,.strip-toggle,.review-controls button,.benefit-link,.contact-pill,.menu-pill{transform:none!important}
+}
+
+@media(max-width:600px){
+  .single-nav .menu-pill:active{transform:translateY(4px) scale(.99);background:var(--yellow);box-shadow:0 1px 0 rgba(38,24,15,.3),0 3px 7px rgba(38,24,15,.12)}
 }

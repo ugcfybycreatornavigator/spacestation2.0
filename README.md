@@ -1,12 +1,12 @@
 # SpaceStation Coworking 2.0
 
-Modern, high-performance landing experience for **SpaceStation Coworking & Virtual Offices** in Bhilai, Chhattisgarh.
+Modern, high-performance landing experience for **SpaceStation Coworking's virtual-office service** in Bhilai, Chhattisgarh.
 
 ## Features
 
 - **Hero Experience**: Video backgrounds and smooth entrance animations.
-- **Workspaces & Offerings**: Interactive tabbed workspace selection (Virtual Offices, Coworking Enquiry).
-- **Interactive Space Tour**: Visual media previews and community testimonials.
+- **Virtual Office Offering**: Business-address documentation, onboarding and plan details.
+- **Service Benefits**: Visual presentation of virtual-office support.
 - **Direct Enquiries**: Instant enquiry dispatch to WhatsApp and email.
 - **Responsive Architecture**: Fully optimized layout for mobile, tablet, and desktop viewports.
 
