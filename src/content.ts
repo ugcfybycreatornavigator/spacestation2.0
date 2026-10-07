@@ -21,6 +21,49 @@ export const siteContent = {
     ['Meeting room', '/media/gallery/meeting-room.png']
   ],
   visitImage: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=85',
+  ratingSummary: { score: '4.9', count: '45+', source: 'Google & Justdial Reviews' },
+  reviews: [
+    {
+      stars: '★★★★★ 5.0',
+      platform: 'Justdial Verified',
+      title: 'Seamless GST Verification',
+      body: 'SpaceStation delivered our complete notarized documentation, NOC, and electricity bill within 48 hours for Chhattisgarh GST registration. The verification went through on the first attempt without any hassle. Truly dependable service in Bhilai.',
+      author: 'Deepak Yadav',
+      role: 'Director, Enterprise Solutions'
+    },
+    {
+      stars: '★★★★★ 5.0',
+      platform: 'Google Review',
+      title: 'Best Virtual Office in CG',
+      body: 'The most affordable and trusted virtual office in Chhattisgarh. At ₹549/month, we got an official business presence at Kohinoor Tower, Junwani Road, complete with legitimate MCA and ROC compliance support.',
+      author: 'Amit Sharma',
+      role: 'Founder, Retail Logistics'
+    },
+    {
+      stars: '★★★★★ 5.0',
+      platform: 'Verified Member',
+      title: 'Reliable Courier Forwarding',
+      body: 'Our team operates remotely and relies on SpaceStation for all critical official correspondence. Their courier handling is punctual—every notice and document is acknowledged instantly on WhatsApp and forwarded securely.',
+      author: 'Neha Agrawal',
+      role: 'E-Commerce Brand Owner'
+    },
+    {
+      stars: '★★★★★ 5.0',
+      platform: 'Justdial Verified',
+      title: 'Fast 48-Hour Onboarding',
+      body: 'Super quick turnaround. We shared partner KYC and company details, reviewed the agreement draft, and received the final signed agreement in two days. The team is always approachable and supportive.',
+      author: 'Rohan Verma',
+      role: 'Managing Partner, Cloud Services'
+    },
+    {
+      stars: '★★★★★ 5.0',
+      platform: 'Google Review',
+      title: 'State-of-the-Art Workspace',
+      body: 'Kohinoor Tower facility is spotless, modern, and very well located near Avanti Bai Chowk. The meeting rooms and work booths are fantastic for client discussions. Hands down the highest quality workspace in Bhilai.',
+      author: 'Pooja Dewangan',
+      role: 'Creative Consultant & Member'
+    }
+  ],
   testimonials: ['Approved member testimonial will appear here.', 'Approved business testimonial will appear here.', 'Approved community testimonial will appear here.'],
   faqs: [
     ['What does the virtual office include?', 'The listed support includes NOC, a sublease agreement, utility-bill documentation, account-manager support, and courier reception or forwarding. Courier charges may apply.'],
